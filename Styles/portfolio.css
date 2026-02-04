@@ -1,0 +1,141 @@
+.work-sans-mainFont {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primary_color {
+  color: #fd6e0a;
+}
+
+.button-primary {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  padding: 8px 16px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+}
+
+.button-secondary {
+  color: rgba(253, 110, 10, 1);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(253, 110, 10, 1);
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 8px 16px;
+}
+
+/* header style */
+
+header {
+  background-image:
+    url("../Assests/developer.png"), url("../Assests/header_bg.png");
+  background-repeat: no-repeat;
+  background-position:
+    left 44px top 0px,
+    bottom right;
+    background-size:
+     110px 724px, 
+    auto;  
+}
+
+/* navbar style  */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 220px;
+}
+
+.nav-title {
+  font-style: ExtraBold;
+  font-size: 45px;
+  font-weight: 800;
+  text-align: left;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: rgba(71, 71, 71, 1);
+  font-style: Regular;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* banner style  */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px 0 220px;
+}
+
+.banner-greetings {
+  color: rgba(71, 71, 71, 1);
+  font-size: 42px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.banner-title {
+  color: rgba(24, 24, 24, 1);
+  font-size: 82px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.banner-description {
+  color: rgba(117, 117, 117, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.banner .banner-content .banner-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.banner .banner-content .banner-buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.banner .banner-content .banner-buttons button img {
+  width: 20px;
+  height: 20px;
+}
+
+.banner-profile-img {
+  width: 584px;
+  height: 676px;
+}
