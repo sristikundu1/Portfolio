@@ -16,7 +16,7 @@
 .button-primary {
   background-color: #fd6e0a;
   border-radius: 5px;
-  padding: 8px 16px;
+  padding: 10px 16px;
   border: none;
   color: rgba(255, 255, 255, 1);
   font-size: 20px;
@@ -56,7 +56,6 @@ header {
     background-size:
      110px 724px, 
     auto;  
-
     background-color: #FFF8F3;
 }
 
@@ -237,4 +236,135 @@ margin-bottom: 16px;
   text-align: left;
 }
 
+/* resume style  */
+.resume{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.resume-title{
+color: rgba(71, 71, 71, 1);
+font-size: 26px;
+font-weight: 700;
+line-height: 38px;
+text-align: left;
+margin-bottom: 24px;
+}
 
+.edu-job-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 64px;
+margin-top: 80px;
+}
+
+.degree-name{
+  color: rgba(71, 71, 71, 1);
+font-size: 22px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+margin-bottom: 14px;
+}
+
+.institute{
+  color: rgba(117, 117, 117, 1);
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+}
+
+.description{
+margin-bottom: 16px;
+}
+
+hr{
+  margin-bottom: 16px;
+}
+
+.cv-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+  margin-bottom: 80px;
+
+}
+
+.resume .cv-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.resume .cv-btn button img {
+  width: 20px;
+  height: 20px;
+}
+
+/* footer style  */
+
+footer{
+  background-color: #FFF8F3;
+}
+
+.footer-container{
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 16px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.footer-social{
+      width: 52%;
+}
+
+.footer-form{
+   width: 40%;
+}
+
+.footer-title{
+  color: rgba(24, 24, 24, 1);
+font-size: 32px;
+font-weight: 700;
+line-height: 46px;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.footer-mgs{
+  margin-bottom: 16px;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input{
+  background-color: #ffffff;
+  border-radius: 5px;
+padding: 28px;
+border: none;
+}
+
+textarea{
+    background-color: #ffffff;
+  border-radius: 5px;
+padding: 28px;
+border: none;
+}
+
+.submit-btn{
+  width: 28%;
+}
